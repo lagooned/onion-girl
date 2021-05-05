@@ -120,6 +120,10 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -130,6 +134,7 @@
                   <location>
                     <measures>1</measures>
                     <fractions>-1/2</fractions>
+                    <notes>-1</notes>
                     </location>
                   </next>
                 </Spanner>
@@ -157,6 +162,10 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Note>
+              <pitch>70</pitch>
+              <tpc>24</tpc>
+              </Note>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -193,6 +202,7 @@
                   <location>
                     <measures>-1</measures>
                     <fractions>1/2</fractions>
+                    <notes>1</notes>
                     </location>
                   </prev>
                 </Spanner>
@@ -229,6 +239,20 @@
               <tpc>13</tpc>
               </Note>
             <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <notes>-1</notes>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
@@ -238,6 +262,7 @@
                 <next>
                   <location>
                     <measures>1</measures>
+                    <notes>-1</notes>
                     </location>
                   </next>
                 </Spanner>
@@ -254,6 +279,7 @@
                 <next>
                   <location>
                     <measures>1</measures>
+                    <notes>-1</notes>
                     </location>
                   </next>
                 </Spanner>
@@ -267,6 +293,7 @@
                 <next>
                   <location>
                     <measures>1</measures>
+                    <notes>-1</notes>
                     </location>
                   </next>
                 </Spanner>
@@ -289,6 +316,7 @@
                 <next>
                   <location>
                     <measures>1</measures>
+                    <notes>-1</notes>
                     </location>
                   </next>
                 </Spanner>
@@ -302,6 +330,7 @@
                 <next>
                   <location>
                     <measures>1</measures>
+                    <notes>-1</notes>
                     </location>
                   </next>
                 </Spanner>
@@ -389,6 +418,7 @@
                 <prev>
                   <location>
                     <measures>-1</measures>
+                    <notes>1</notes>
                     </location>
                   </prev>
                 </Spanner>
@@ -409,6 +439,7 @@
                 <prev>
                   <location>
                     <measures>-1</measures>
+                    <notes>1</notes>
                     </location>
                   </prev>
                 </Spanner>
@@ -429,6 +460,7 @@
                 <prev>
                   <location>
                     <measures>-1</measures>
+                    <notes>1</notes>
                     </location>
                   </prev>
                 </Spanner>
@@ -449,6 +481,7 @@
                 <prev>
                   <location>
                     <measures>-1</measures>
+                    <notes>1</notes>
                     </location>
                   </prev>
                 </Spanner>
@@ -469,6 +502,7 @@
                 <prev>
                   <location>
                     <measures>-1</measures>
+                    <notes>1</notes>
                     </location>
                   </prev>
                 </Spanner>
@@ -590,8 +624,22 @@
               <Accidental>
                 <subtype>accidentalSharp</subtype>
                 </Accidental>
+              <pitch>37</pitch>
+              <tpc>21</tpc>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
               <pitch>44</pitch>
               <tpc>22</tpc>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
               </Note>
             <Note>
               <pitch>53</pitch>
@@ -608,6 +656,13 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>34</pitch>
+              <tpc>24</tpc>
+              </Note>
+            <Note>
               <pitch>41</pitch>
               <tpc>13</tpc>
               </Note>
@@ -619,18 +674,15 @@
               <tpc>12</tpc>
               </Note>
             <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
               <pitch>49</pitch>
               <tpc>21</tpc>
               </Note>
             <Note>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
-              <pitch>49</pitch>
-              <tpc>9</tpc>
+              <pitch>51</pitch>
+              <tpc>23</tpc>
               </Note>
             <Note>
               <pitch>60</pitch>
@@ -653,19 +705,6 @@
                     </location>
                   </next>
                 </Spanner>
-              <pitch>23</pitch>
-              <tpc>19</tpc>
-              </Note>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
               <pitch>35</pitch>
               <tpc>19</tpc>
               </Note>
@@ -721,26 +760,6 @@
         <voice>
           <Chord>
             <durationType>whole</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <Tie>
-                  </Tie>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>23</pitch>
-              <tpc>19</tpc>
-              </Note>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -828,17 +847,6 @@
         <voice>
           <Chord>
             <durationType>whole</durationType>
-            <Note>
-              <Spanner type="Tie">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    </location>
-                  </prev>
-                </Spanner>
-              <pitch>23</pitch>
-              <tpc>19</tpc>
-              </Note>
             <Note>
               <Spanner type="Tie">
                 <prev>
